@@ -1,2 +1,5 @@
-import * as md from 'markdown-it';
+
 import {render} from 'react-dom'
+import * as $ from 'jquery';
+import * as bootstrap from 'bootstrap';
+
