@@ -6,12 +6,12 @@ import * as markdown from 'markdown-it';
 
 let md = new markdown();
 // MenuItem interface
-abstract class MenuItem {
+export abstract class MenuItem {
     title : string; // menu title
     active : boolean;
     abstract click () :void
 }
-class MarkdownMenuItem extends MenuItem {
+export class MarkdownMenuItem extends MenuItem {
     mdFile : string // mark down file
     constructor(t : string, f : string) {
         super()
